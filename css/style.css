@@ -1,0 +1,20 @@
+/* Importerer Poppins-fonten fra Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Nulstiller standard margin og padding samt sætter en fælles skrifttype */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Definerer den primære scene for animationen */
+.scene {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(#a6d8ff, #fff, #fff); 
+    /* Baggrundsfarve med gradient */
+}
+
